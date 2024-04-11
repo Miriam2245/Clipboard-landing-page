@@ -101,12 +101,13 @@ h1{
 }
 .process-explanations{
    width: 50%;
+   padding-top: 40px;
 }
 .process-explanations h1{
     color: hsl(210, 10%, 33%);
     font-size: 18px;
     font-weight: 500;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 
 .about-quick{
@@ -126,4 +127,7 @@ h1{
     font-size: 12px;
     width: 20em;
     line-height: 1.5em;
+}
+.device-png{
+    margin-top: 5em;
 }
