@@ -106,11 +106,24 @@ h1{
     color: hsl(210, 10%, 33%);
     font-size: 18px;
     font-weight: 500;
+    padding-top: 25px;
 }
 
-.process-explanations p{
+.about-quick{
     color: hsl(201, 11%, 66%);
     font-size: 12px;
     width: 30em;
+    line-height: 1.5em;
+}
+.sync{
+    color: hsl(201, 11%, 66%);
+    font-size: 12px;
+    width: 20em;
+    line-height: 1.5em;
+}
+.history{
+    color: hsl(201, 11%, 66%);
+    font-size: 12px;
+    width: 20em;
     line-height: 1.5em;
 }
