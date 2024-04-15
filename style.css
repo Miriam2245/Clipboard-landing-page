@@ -4,11 +4,16 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     font-family: 'Bai Jamjuree';
-    width: 1440px;
+   
 }
 p{
     margin: 0;
     padding: 0;
+}
+.main{
+    width: 1440px;
+    height: auto;
+    margin: 0 auto;
 }
 .header{
     display: flex;
@@ -247,4 +252,148 @@ h1{
     padding-right: 10px;
     width: 20px;
     height: auto;
+}
+
+@media only screen and (max-width: 375px) {
+    .main {
+        width: 80%;
+    }
+
+    .header {
+        margin-top: 1em;
+    }
+
+    .c-icon {
+        width: 3em;
+        height: 3em;
+    }
+
+    .c-icon p {
+        font-size: 2em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .about-clipboard {
+        width: 100%;
+        padding: 0 10px;
+        font-size: 14px;
+    }
+
+    .clipboard-btn {
+        margin-top: 1em;
+    }
+
+    .iOS-btn,
+    .Mac-btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .clipboard-track h1 {
+        font-size: 1.5em;
+    }
+
+    .clipboard-track p {
+        width: 100%;
+        padding: 0 10px;
+        font-size: 14px;
+    }
+
+    .process-explanations h1 {
+        font-size: 16px;
+    }
+
+    .about-quick,
+    .sync,
+    .history {
+        width: 100%;
+        padding: 0 10px;
+        font-size: 12px;
+    }
+
+    .device-png {
+        margin-top: 1em;
+    }
+
+    .image-devices {
+        width: 100%;
+    }
+
+    .icons {
+        flex-wrap: wrap;
+    }
+
+    .icon-blacklist {
+        width: 100%;
+        margin: 1em 0;
+    }
+
+    .icon-blacklist h1 {
+        font-size: 14px;
+    }
+
+    .icon-blacklist p {
+        width: 100%;
+        padding: 0 10px;
+        font-size: 12px;
+    }
+
+    .social-icons {
+        flex-wrap: wrap;
+        margin-top: 2em;
+    }
+
+    .google-icon {
+        width: 8em;
+        margin: 0.5em 0.5em;
+    }
+
+    .google-logo {
+        width: 6em;
+    }
+
+    .footer {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .FAQs {
+        width: 100%;
+        text-align: center;
+        margin: 1em 0;
+    }
+
+    .FAQs p {
+        width: 100%;
+        padding: 0 10px;
+        font-size: 12px;
+    }
+
+    .c-icon-footer {
+        width: 2.5em;
+        height: 2.5em;
+        margin: 1em;
+    }
+
+    .c-icon-footer p {
+        font-size: 24px;
+    }
+
+    .footer-icons {
+        width: 100%;
+        text-align: center;
+        margin: 2em 0;
+    }
+
+    .facebook-icon,
+    .twitter-icon,
+    .instagram-icon {
+        width: 16px;
+        padding-right: 5px;
+    }
 }
