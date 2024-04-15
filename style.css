@@ -9,12 +9,9 @@ body{
 p{
     margin: 0;
     padding: 0;
+    font-family: 'Bai Jamjuree';
 }
-.main{
-    width: 1440px;
-    height: auto;
-    margin: 0 auto;
-}
+
 .header{
     display: flex;
     flex-direction: column;
@@ -32,6 +29,7 @@ p{
     justify-content: center;
 }
 .c-icon p{
+    font-family: 'Bai Jamjuree';
     text-align: center;
     font-size: 4em;
     font-weight: 600;
@@ -51,22 +49,27 @@ h1{
 }
 .clipboard-btn{
     margin-top: 2em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .iOS-btn{
-    padding: 10px 20px 10px 20px;
+    padding: 15px 25px 15px 25px;
     background-color: rgb(38, 186, 164);
     border: none;
-    border-radius: 16px;
+    border-radius: 20px;
     box-shadow: 3px 3px 3px rgba(38, 186, 164, 0.3);
     color: white;
     font-weight: 600;
     margin-right: 1.5em;
 }
 .Mac-btn{
-    padding: 10px 20px 10px 20px;
+    padding: 15px 25px 15px 25px;
     background-color: rgb(97, 115, 255);
     border: none;
-    border-radius: 16px;
+    border-radius: 20px;
     box-shadow: 3px 3px 3px rgba(97, 155, 255, 0.3);
     color: white;
     font-weight: 600;
@@ -114,13 +117,22 @@ h1{
 
 .process-explanations{
    width: 50%;
-   padding-top: 40px;
 }
 .process-explanations h1{
     color: hsl(210, 10%, 33%);
-    font-size: 18px;
+    font-size: 2em;
     font-weight: 500;
-    padding-top: 20px;
+}
+.process-explanations p{
+    font-size: 16px;
+    padding-top: 0;
+}
+.clipboard-tools p{
+    color: hsl(201, 11%, 66%);
+    font-size: 16px;
+    text-align: center;
+    width: 40em;
+    line-height: 1.5em;
 }
 
 .about-quick{
@@ -154,6 +166,7 @@ h1{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-top: 3em;
 
 }
 .icon-blacklist{
@@ -169,11 +182,11 @@ h1{
 }
 .icon-blacklist h1{
     text-align: center;
-    font-size: 16px;
+    font-size: 2em;
 }
 .icon-blacklist p{
     color: hsl(201, 11%, 66%);
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     line-height: 1.5em;
 }
@@ -255,55 +268,98 @@ h1{
 }
 
 @media only screen and (max-width: 375px) {
-    .main {
-        width: 80%;
-    }
-
     .header {
-        margin-top: 1em;
+        margin-top: 5em;
     }
 
     .c-icon {
-        width: 3em;
-        height: 3em;
+        width: 5em;
+        height: 5em;
     }
 
     .c-icon p {
-        font-size: 2em;
+        font-size: 5em;
     }
 
     h1 {
-        font-size: 1.5em;
+        font-size: 1.7em;
+        text-align: center;
+        width: 80%;
     }
 
     .about-clipboard {
-        width: 100%;
-        padding: 0 10px;
-        font-size: 14px;
+        width: 80%;
+        font-size: 1em;
+        text-align: center;
     }
 
     .clipboard-btn {
-        margin-top: 1em;
+        width: 100%;
+        margin-top: 3em;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .iOS-btn,
-    .Mac-btn {
-        padding: 8px 16px;
-        font-size: 14px;
+    .iOS-btn{
+        width: 80%;
+        margin-bottom: 20px;
+        margin-left: 1.5em;
+    }
+    .Mac-btn{
+        width: 80%;
+        margin-bottom: 20px;
     }
 
     .clipboard-track h1 {
-        font-size: 1.5em;
+        margin-top: 2em;
+        font-size: 2em;
     }
 
     .clipboard-track p {
-        width: 100%;
-        padding: 0 10px;
-        font-size: 14px;
+        width: 85%;
+        text-align: center;
+        font-size: 16px;
     }
+    .clipboard-process{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .computer-png{
+        width: 100%;
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-computer{
+        width: 20em;
+        height: auto;
+      }
+      .process-explanations{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
 
     .process-explanations h1 {
-        font-size: 16px;
+        margin-top: 2em;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .process-explanations p{
+        text-align: center;
+        width: 80%;
+    }
+    .clipboard-tools p{
+         text-align: center;
+         font-size: 16px;
+         width: 80%;
     }
 
     .about-quick,
