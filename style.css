@@ -356,19 +356,6 @@ h1{
         text-align: center;
         width: 80%;
     }
-    .clipboard-tools p{
-         text-align: center;
-         font-size: 16px;
-         width: 80%;
-    }
-
-    .about-quick,
-    .sync,
-    .history {
-        width: 100%;
-        padding: 0 10px;
-        font-size: 12px;
-    }
 
     .device-png {
         margin-top: 1em;
@@ -376,80 +363,110 @@ h1{
 
     .image-devices {
         width: 100%;
+        margin-bottom: 5em;
     }
-
-    .icons {
-        flex-wrap: wrap;
+    .clipboard-tools h1{
+        font-size: 2em;
     }
-
-    .icon-blacklist {
+    .clipboard-tools p{
+         text-align: center;
+         font-size: 16px;
+         width: 80%;
+    }
+    .icons{
         width: 100%;
-        margin: 1em 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-
-    .icon-blacklist h1 {
-        font-size: 14px;
-    }
-
-    .icon-blacklist p {
+    .icon-blacklist{
         width: 100%;
-        padding: 0 10px;
-        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 4em;
+        margin-left: 3em;
     }
+    .icon-blacklist h1{
+        width: 90%;
+        font-size: 2em;
+        text-align: center;
+    }
+    .icon-blacklist p{
+        width: 85%;
+        font-size: 16px;
+        text-align: center;
+    }
+    
 
     .social-icons {
-        flex-wrap: wrap;
-        margin-top: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1em;
     }
 
     .google-icon {
-        width: 8em;
-        margin: 0.5em 0.5em;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3em;
+        margin-left: 4em;
     }
 
     .google-logo {
-        width: 6em;
+        width: 10em;
     }
 
     .footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
         height: auto;
-        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
     }
 
-    .FAQs {
-        width: 100%;
-        text-align: center;
-        margin: 1em 0;
-    }
-
-    .FAQs p {
-        width: 100%;
-        padding: 0 10px;
-        font-size: 12px;
-    }
-
     .c-icon-footer {
-        width: 2.5em;
-        height: 2.5em;
+        width: 3em;
+        height: 3em;
         margin: 1em;
     }
 
     .c-icon-footer p {
-        font-size: 24px;
+        font-size: 3em;
+    }
+
+    .FAQs {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+    }
+
+    .FAQs p {
+        width: 100%;
+        padding-bottom: 1em;
+        padding-left: 2em;
+        font-size: 16px;
+        text-align: center;
     }
 
     .footer-icons {
         width: 100%;
         text-align: center;
-        margin: 2em 0;
+        margin: 5em 0;
     }
 
     .facebook-icon,
     .twitter-icon,
     .instagram-icon {
-        width: 16px;
-        padding-right: 5px;
+        width: 20px;
+        padding-right: 1em;
     }
 }
